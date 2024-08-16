@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Food Companion</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Food-Companion.css" media="screen">
+<link rel="stylesheet" href="style.css">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 6.14.4, nicepage.com">
+
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+
+
+
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Site1",
+		"logo": "images/EcoSnap_Circle.png"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Food Companion">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-custom-color-1 u-header u-header" id="sec-c937" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+        <a href="#" class="u-image u-logo u-image-1" data-image-width="2708" data-image-height="2708">
+          <img src="images/EcoSnap_Circle.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <p class="u-custom-font u-hidden-xs u-text u-text-default u-text-1">EcoSnap </p>
+        <nav class="u-align-left u-font-size-14 u-menu u-menu-hamburger u-nav-spacing-25 u-offcanvas u-menu-1" data-responsive-from="XL">
+          <div class="menu-collapse">
+            <a class="u-button-style u-nav-link" href="#" style="padding: 8px 13px; font-size: calc(1em + 15.3333px);">
+              <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7b92"></use></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-7b92" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content"><g><rect y="36" width="302" height="30"></rect><rect y="236" width="302" height="30"></rect><rect y="136" width="302" height="30"></rect>
+</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./" style="padding-right: 26px;">Dashboard</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Food-Companion.html" style="padding-right: 26px;">Food Companion</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Shopping-Companion.html" style="padding-right: 26px;">Shopping Companion</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Menu-Companion.html" style="padding-right: 26px;">Menu Companion</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-align-center u-container-style u-custom-color-2 u-inner-container-layout u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./">Dashboard</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Food-Companion.html">Food Companion</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Shopping-Companion.html">Shopping Companion</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Menu-Companion.html">Menu Companion</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-menu-overlay u-opacity u-opacity-70 u-palette-5-dark-2"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-clearfix u-section-1" id="sec-2ca3">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+
+
+        <div id="camera-web-app-container">
+          <div id="video-container">
+            <video id="video" autoplay class="active"></video>
+            <img id="uploaded-image" alt="Uploaded Image">
+          </div>
+
+          <div class="controls">
+            <input type="file" id="upload-input" accept="image/*">
+            <button id="capture-btn">Capture Photo</button>
+            <button id="flip-btn">Flip Camera</button>
+            <button id="reset-btn">Reset</button>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+    <section class="u-clearfix u-section-2" id="sec-fedc">
+      <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
+        <div class="u-align-center u-container-style u-custom-color-2 u-group u-radius u-shape-round u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <p class="u-custom-font u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-1">Sustainability<span style="font-weight: 600;">
+                <span style="font-weight: 600;"></span>            </p>
+            <p class="u-custom-font u-text u-text-2" id = "sustainability-score">?/5</p>
+          </div>
+        </div>
+        <div class="u-expanded-width-xs u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-custom-color-1 u-list-item u-radius u-repeater-item u-shape-round u-list-item-1">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                <p class="u-custom-font u-text u-text-3" id="item-calories">?</p>
+                <p class="u-custom-font u-text u-text-default u-text-4">Calories:</p>
+              </div>
+            </div>
+            <div class="u-container-style u-custom-color-1 u-list-item u-radius u-repeater-item u-shape-round u-list-item-2">
+              <div class="u-container-layout u-similar-container u-container-layout-3">
+                <p class="u-custom-font u-text u-text-5" id = "sugar-content">?</p>
+                <p class="u-custom-font u-text u-text-default u-text-6">Sugar:</p>
+              </div>
+            </div>
+            <div class="u-container-style u-custom-color-1 u-list-item u-radius u-repeater-item u-shape-round u-list-item-3">
+              <div class="u-container-layout u-similar-container u-container-layout-4">
+                <p class="u-custom-font u-text u-text-7" id = "protein-content">?</p>
+                <p class="u-custom-font u-text u-text-default u-text-8">Protein:</p>
+              </div>
+            </div>
+            <div class="u-container-style u-custom-color-1 u-list-item u-radius u-repeater-item u-shape-round u-list-item-4">
+              <div class="u-container-layout u-similar-container u-container-layout-5">
+                <p class="u-custom-font u-text u-text-9" id = "fat-content">?</p>
+                <p class="u-custom-font u-text u-text-default u-text-10">Fat:</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer class="u-align-center u-clearfix u-custom-color-1 u-footer u-footer" id="sec-156c"><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-custom-font u-small-text u-text u-text-variant u-text-1">© 2024 EcoSnap LLC. All Rights Reserved. </p>
+      </div></footer>
+      <script src="app.js"></script>
+</body></html>
