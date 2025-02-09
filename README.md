@@ -107,3 +107,9 @@ This script is essential for the interactive functionality of the EcoSnap applic
 - **Recycling Center Information** (Future)
 - **Waste Reduction Tips** (Future)
 - **Location-Based Recycling Guidance** (Future)
+
+
+
+<img width="1477" alt="Screenshot 2025-02-08 at 9 45 23 PM" src="https://github.com/user-attachments/assets/0a249aa1-c830-4423-9cdd-2a1d6a973897" />
+
+
